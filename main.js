@@ -187,7 +187,7 @@ const buildPassword = (userPassword) => {
 const verifyPassword = () => {
   const userPassword = password.value;
       if (!buildPassword(userPassword)) {
-    passwordError.textContent = "Password must have a numerical character";
+    passwordError.textContent = "Password must have a number";
     password.style.border = "1px solid red";
     return false;
     
