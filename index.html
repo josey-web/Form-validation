@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  <title>Document</title>
+</head>
+<body>
+  
+<main class="formContainer">
+  <div class="formSectionA">
+ <h1 class="headText">Learn to code by watching others</h1>
+  <p class="paragraphOne">See how experienced developers solve problems in real-time. <br> Watching scripted tutorials is great, but understanding how developers think is invaluable</p>
+  </div>
+
+  <form action="" name="form" class="formSectionB">
+  <p class="tryFree"><span class="tryFreeBold">Try it free 7 days</span> then $20/mo. thereafter</p>
+
+  <div class="inputContainer">
+
+    <!-- form errorMessage -->
+<p class="errorMessag" id="formErrorMessage"></p>
+
+<!-- form inputs -->
+<div class="eachInputWrap">
+  <input id="firstName" type="text" name="firstName" placeholder="Enter your first name">
+  <span class="errorMessage" id="firstNameError"></span>
+</div>
+
+
+<div  class="eachInputWrap">
+  <input id="lastName" name="lastName" placeholder="Enter your last name">
+  <span class="errorMessage" id="lastNameError"></span>
+</div>
+
+
+<div  class="eachInputWrap">
+  <input id="email" type="email" name="email" placeholder="Enter your email address">
+  <span class="errorMessage" id="emailError"></span>
+</div>
+
+<div  class="eachInputWrap">
+ <input id="password" type="password" name="password" placeholder="Enter your password">
+  <span class="errorMessage" id="passwordError"></span>
+</div>
+
+<div  class="eachInputWrap">
+  <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password">
+  <span class="errorMessage" id="confirmPasswordError"></span>
+</div>
+
+
+
+  <button type="submit" >CLAIM YOUR FREE TRIAL</button>
+  <p class="TermsServives">By clicking the button, you are agreeing to our <span class="TermsServivesBold">Terms and Services</span></p>
+  </div>
+
+  </form>
+</main>
+
+
+
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
+
